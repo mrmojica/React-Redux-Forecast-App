@@ -1,0 +1,15 @@
+.input-group {
+	margin:20px 0px;
+}
+
+td, th {
+/*	important forces the style*/
+	vertical-align:middle !important;
+	text-align: center !important;
+}
+
+/*selects first table*/
+td:first-of-type {
+	height: 200px;
+	width: 250px;
+}
